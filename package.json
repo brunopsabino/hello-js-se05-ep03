@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brunopsabino/hello-js-se05-ep03/issues"
   },
-  "homepage": "https://github.com/brunopsabino/hello-js-se05-ep03#readme"
+  "homepage": "https://github.com/brunopsabino/hello-js-se05-ep03#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

@@ -4,6 +4,6 @@ const baseURL = "https://api.github.com"
 
 const api = axios.create({ baseURL })
 
-const params = { q : "axios" }
+const params = { username : "brunopsabino" }
 
-api.get("/search/repositories", { params }).then(ret => console.log(ret.data))
+api.get("/users/:username/followers", { params }).then(ret => console.log(ret.data))
